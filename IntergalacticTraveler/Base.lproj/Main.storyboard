@@ -43,6 +43,9 @@
                     <navigationItem key="navigationItem" title="Intergalactic Traveller" id="lxr-Fx-GFr">
                         <barButtonItem key="backBarButtonItem" title="Leave Wormhole" id="lU7-SV-H42"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="colorTextfield" destination="zGX-sv-z5B" id="54h-qS-siq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,6 +58,12 @@
                     <view key="view" contentMode="scaleToFill" id="Jay-m4-jx1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qep-bA-7jy">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ZVE-Yv-3ik"/>
                     </view>
