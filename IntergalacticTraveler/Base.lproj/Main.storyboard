@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="ngG-7m-rxU">
             <objects>
-                <viewController id="ieG-qM-2ik" sceneMemberID="viewController">
+                <viewController id="ieG-qM-2ik" customClass="SecondViewController" customModule="IntergalacticTraveler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jay-m4-jx1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
